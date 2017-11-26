@@ -1,0 +1,3 @@
+K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs
+K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape.Target.cs
+K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscapeEditor.Target.cs
