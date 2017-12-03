@@ -1,6 +1,7 @@
 // Copyright Cadtamas 2017
 
 #include "Grabber.h"
+#include "Gameframework/Actor.h"
 
 
 // Sets default values for this component's properties
@@ -19,7 +20,7 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty!"));
 	
 }
 
