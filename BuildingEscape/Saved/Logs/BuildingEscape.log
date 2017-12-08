@@ -1,4 +1,4 @@
-﻿Log file open, 12/07/17 20:30:01
+﻿Log file open, 12/08/17 14:52:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1516535777) SRandInit(1516535777).
+LogInit: Display: RandInit(501702891) SRandInit(501702891).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.219402
+LogStats: Stats thread started at 2.956665
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,509 +113,835 @@ LogInit: Base directory: H:/Programok/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.07-19.30.03:029][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-19.30.03:029][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.07-19.30.03:051][  0]LogInit: Computer: KLAFA-PC
-[2017.12.07-19.30.03:051][  0]LogInit: User: Klafa
-[2017.12.07-19.30.03:051][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.07-19.30.03:051][  0]LogInit: High frequency timer resolution =3.429482 MHz
-[2017.12.07-19.30.03:051][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.12.07-19.30.03:051][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.07-19.30.03:051][  0]LogMemory: Process Physical Memory: 278.90 MB used, 278.90 MB peak
-[2017.12.07-19.30.03:051][  0]LogMemory: Process Virtual Memory: 277.50 MB used, 277.50 MB peak
-[2017.12.07-19.30.03:051][  0]LogMemory: Physical Memory: 5760.33 MB used,  10524.63 MB free, 16284.96 MB total
-[2017.12.07-19.30.03:051][  0]LogMemory: Virtual Memory: 654.15 MB used,  10524.63 MB free, 8388608.00 MB total
-[2017.12.07-19.30.03:432][  0]LogInit: Using OS detected language (hu-HU).
-[2017.12.07-19.30.03:432][  0]LogInit: Using OS detected locale (hu-HU).
-[2017.12.07-19.30.03:537][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the language.
-[2017.12.07-19.30.03:538][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the locale.
-[2017.12.07-19.30.05:742][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.07-19.30.05:773][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
-[2017.12.07-19.30.05:773][  0]LogD3D11RHI:       1990/0/7886 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.12.07-19.30.05:773][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.07-19.30.05:787][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.07-19.30.05:787][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.07-19.30.05:787][  0]LogWindows: EnumDisplayDevices:
-[2017.12.07-19.30.05:788][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
-[2017.12.07-19.30.05:788][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
-[2017.12.07-19.30.05:788][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.07-19.30.05:788][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.07-19.30.05:789][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.12.07-19.30.05:789][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.12.07-19.30.05:789][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.12.07-19.30.05:789][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.12.07-19.30.05:789][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
-[2017.12.07-19.30.05:789][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
-[2017.12.07-19.30.05:789][  0]LogD3D11RHI:      Driver Date: 9-16-2017
-[2017.12.07-19.30.05:789][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.12.07-19.30.05:801][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.07-19.30.05:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.12.07-19.30.05:821][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/6972/).
-[2017.12.07-19.30.05:821][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Klafa/AppData/Local/Temp/UnrealShaderWorkingDir/0572097D437CB3D49AA4CD8E720E9BB6/'.
-[2017.12.07-19.30.05:821][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.07-19.30.07:302][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.07-19.30.07:391][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.07-19.30.07:479][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.07-19.30.07:570][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.07-19.30.07:659][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.07-19.30.07:747][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.07-19.30.07:836][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.07-19.30.07:925][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.07-19.30.08:003][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.07-19.30.08:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.07-19.30.08:193][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.07-19.30.08:285][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.07-19.30.08:376][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.07-19.30.08:467][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.07-19.30.08:556][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.07-19.30.08:733][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.07-19.30.08:733][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.07-19.30.08:805][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.07-19.30.08:948][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.07-19.30.08:995][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.07-19.30.09:082][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.07-19.30.09:168][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.07-19.30.09:261][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.07-19.30.09:352][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.07-19.30.09:352][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.07-19.30.10:193][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: Loaded boot cache 0.49s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.07-19.30.10:683][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.07-19.30.10:745][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.07-19.30.10:758][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Klafa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.07-19.30.10:778][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.07-19.30.10:778][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.07-19.30.10:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-19.30.10:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-19.30.11:585][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
-[2017.12.07-19.30.11:954][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-19.30.11:964][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.12.07-19.30.12:707][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.07-19.30.12:788][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.07-19.30.12:788][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.07-19.30.12:789][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.07-19.30.12:789][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.07-19.30.12:789][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.07-19.30.13:366][  0]LogNetVersion: BuildingEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3580536536)
-[2017.12.07-19.30.13:713][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.072501 seconds
-[2017.12.07-19.30.13:721][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.12.07-19.30.13:721][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.12.07-19.30.13:721][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.07-19.30.13:826][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.07-19.30.19:431][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.07-19.30.19:487][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.07-19.30.20:725][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.07-19.30.21:396][  0]SourceControl: Source control is disabled
-[2017.12.07-19.30.21:397][  0]SourceControl: Source control is disabled
-[2017.12.07-19.30.21:481][  0]SourceControl: Source control is disabled
-[2017.12.07-19.30.21:563][  0]SourceControl: Source control is disabled
-[2017.12.07-19.30.22:599][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.07-19.30.23:030][  0]LogOcInput: OculusInput pre-init called
-[2017.12.07-19.30.23:455][  0]LogEngine: Initializing Engine...
-[2017.12.07-19.30.23:483][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.12.07-19.30.23:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.07-19.30.23:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.07-19.30.24:030][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.07-19.30.24:062][  0]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-19.30.24:074][  0]LogInit: FAudioDevice initialized.
-[2017.12.07-19.30.24:213][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.07-19.30.24:250][  0]LogInit: Texture streaming: Enabled
-[2017.12.07-19.30.24:433][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.07-19.30.24:835][  0]LogInit: Transaction tracking system initialized
-[2017.12.07-19.30.25:409][  0]BlueprintLog: New page: Editor Load
-[2017.12.07-19.30.27:009][  0]LocalizationService: Localization service is disabled
-[2017.12.07-19.30.28:325][  0]LogConsoleResponse: Display: 
-[2017.12.07-19.30.29:569][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.07-19.30.29:569][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.07-19.30.29:569][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.07-19.30.29:578][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' took 0.01s
-[2017.12.07-19.30.31:690][  0]SourceControl: Source control is disabled
-[2017.12.07-19.30.31:691][  0]Cmd: MAP LOAD FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.07-19.30.31:722][  0]LightingResults: New page: Lighting Build
-[2017.12.07-19.30.31:797][  0]MapCheck: New page: Map Check
-[2017.12.07-19.30.31:797][  0]LightingResults: New page: Lighting Build
-[2017.12.07-19.30.34:740][  0]LogAIModule: Creating AISystem for world NewMap
-[2017.12.07-19.30.34:772][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.07-19.30.34:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.07-19.30.34:957][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.691ms to complete.
-[2017.12.07-19.30.34:957][  0]LogFileHelpers: Loading map 'NewMap' took 3.267
-[2017.12.07-19.30.35:128][  0]LogCollectionManager: Loaded 0 collections in 0.001791 seconds
-[2017.12.07-19.30.35:251][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
-[2017.12.07-19.30.35:251][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' took 0.01s
-[2017.12.07-19.30.35:251][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
-[2017.12.07-19.30.35:251][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.07-19.30.35:268][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2391 classes and 502 folders.
-[2017.12.07-19.30.35:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2017.12.07-19.30.36:379][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
-[2017.12.07-19.30.36:459][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
-[2017.12.07-19.30.36:603][  0]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.07-19.30.36:614][  0]LogSlate: Took 0.008287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.07-19.30.36:634][  0]LogSlate: Took 0.013443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.07-19.30.36:642][  0]LogSlate: Took 0.007032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.12.07-19.30.36:872][  0]LogRenderer: Reallocating scene render targets to support 1072x804 Format 10 NumSamples 1 (Frame:1).
-[2017.12.07-19.30.37:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
-[2017.12.07-19.30.37:253][  0]LogLoad: (Engine Initialization) Total time: 38.36 seconds
-[2017.12.07-19.30.37:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.07-19.30.37:254][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.07-19.30.37:614][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.07-19.30.37:940][  1]LogAssetRegistry: Asset discovery search completed in 26.3762 seconds
-[2017.12.07-19.30.37:943][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.07-19.30.37:943][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000224 seconds (updated 0 objects)
-[2017.12.07-19.53.08:818][  6]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.07-19.53.12:064][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.07-19.53.12:065][  6]PIE: New page: PIE session: NewMap (Dec 7, 2017, 9:53:12 PM)
-[2017.12.07-19.53.12:066][  6]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.12.07-19.53.12:073][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007330s)
-[2017.12.07-19.53.12:074][  6]LogAIModule: Creating AISystem for world NewMap
-[2017.12.07-19.53.12:075][  6]LogPlayLevel: PIE: World Init took: (0.001384s)
-[2017.12.07-19.53.12:075][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009519s)
-[2017.12.07-19.53.12:124][  6]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-19.53.12:129][  6]LogInit: FAudioDevice initialized.
-[2017.12.07-19.53.12:301][  6]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
-[2017.12.07-19.53.12:307][  6]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.07-20.53.12
-[2017.12.07-19.53.12:308][  6]LogWorld: Bringing up level for play took: 0.003226
-[2017.12.07-19.53.12:396][  6]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
-[2017.12.07-19.53.12:397][  6]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
-[2017.12.07-19.53.12:398][  6]LogTemp: Warning: Grabber reporting for duty!
-[2017.12.07-19.53.12:398][  6]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.105
-[2017.12.07-19.53.16:012][407]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:020][408]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:028][409]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:037][410]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:045][411]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:054][412]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:062][413]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:070][414]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:079][415]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:087][416]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:096][417]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:104][418]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:112][419]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:121][420]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:129][421]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:137][422]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:145][423]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:153][424]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:162][425]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:170][426]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:179][427]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:188][428]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:196][429]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:204][430]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:213][431]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:221][432]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:230][433]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.16:238][434]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-19.53.26:583][306]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
-[2017.12.07-19.53.27:779][369]LogSlate: Took 0.010081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.07-19.54.10:857][732]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 113 classes and 0 folders.
-[2017.12.07-19.54.12:576][732]LogSlate: Took 0.010149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.07-19.54.30:648][547]LogRenderer: Reallocating scene render targets to support 1144x808 Format 10 NumSamples 1 (Frame:1).
-[2017.12.07-19.56.20:046][924]LogSlate: Took 0.026840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.07-19.57.33:403][401]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.07-19.57.42:161][427]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.058
-[2017.12.07-19.57.42:164][427]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_BP] ([1] browsable assets)...
-[2017.12.07-19.57.42:210][427]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP]
-[2017.12.07-19.57.42:211][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_BP]
-[2017.12.07-19.57.42:211][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.12.07-19.57.42:280][427]LogSavePackage: Save=40.35ms
-[2017.12.07-19.57.42:281][427]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/DefaultPawn_BP_Auto1527E28A14787661A3F2BC0B734047788.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset'
-[2017.12.07-19.57.42:286][427]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto1.uasset
-[2017.12.07-19.57.42:286][427]LogFileHelpers: Auto-saving content packages took 0.124
-[2017.12.07-20.11.24:494][894]LogHotReload: New module detected: UE4Editor-BuildingEscape-2720.dll
-[2017.12.07-20.11.26:520][901]LogHotReload: Starting Hot-Reload from IDE
-[2017.12.07-20.11.26:676][901]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
-[2017.12.07-20.11.26:686][901]LogHotReload: Re-instancing Grabber after hot-reload.
-[2017.12.07-20.11.26:799][901]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0029 seconds. Added 5 classes and 2 folders.
-[2017.12.07-20.11.26:803][901]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.12.07-20.11.27:274][901]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2393 classes and 506 folders.
-[2017.12.07-20.11.27:291][901]Display: HotReload took  0.8s.
-[2017.12.07-20.11.55:290][355]BlueprintLog: New page: Compile DefaultPawn_BP
-[2017.12.07-20.12.04:362][  1]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.07-20.12.04:386][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.07-20.12.04:386][  1]PIE: New page: PIE session: NewMap (Dec 7, 2017, 10:12:04 PM)
-[2017.12.07-20.12.04:386][  1]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.12.07-20.12.04:392][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005781s)
-[2017.12.07-20.12.04:394][  1]LogAIModule: Creating AISystem for world NewMap
-[2017.12.07-20.12.04:394][  1]LogPlayLevel: PIE: World Init took: (0.001574s)
-[2017.12.07-20.12.04:394][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008007s)
-[2017.12.07-20.12.04:491][  1]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-20.12.04:497][  1]LogInit: FAudioDevice initialized.
-[2017.12.07-20.12.04:528][  1]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
-[2017.12.07-20.12.04:531][  1]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.07-21.12.04
-[2017.12.07-20.12.04:531][  1]LogWorld: Bringing up level for play took: 0.002389
-[2017.12.07-20.12.04:533][  1]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
-[2017.12.07-20.12.04:533][  1]LogTemp: Warning: Grabber reporting for duty!
-[2017.12.07-20.12.04:533][  1]LogTemp: Error: DefaultPawn_BP_C_0 missing physics handle component!
-[2017.12.07-20.12.04:534][  1]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.733
-[2017.12.07-20.12.23:828][340]BlueprintLog: New page: Compile DefaultPawn_BP
-[2017.12.07-20.12.28:192][696]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.07-20.12.28:215][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.07-20.12.28:216][696]PIE: New page: PIE session: NewMap (Dec 7, 2017, 10:12:28 PM)
-[2017.12.07-20.12.28:216][696]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.12.07-20.12.28:221][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004458s)
-[2017.12.07-20.12.28:222][696]LogAIModule: Creating AISystem for world NewMap
-[2017.12.07-20.12.28:223][696]LogPlayLevel: PIE: World Init took: (0.001916s)
-[2017.12.07-20.12.28:223][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007017s)
-[2017.12.07-20.12.28:283][696]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-20.12.28:288][696]LogInit: FAudioDevice initialized.
-[2017.12.07-20.12.28:320][696]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
-[2017.12.07-20.12.28:323][696]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.07-21.12.28
-[2017.12.07-20.12.28:324][696]LogWorld: Bringing up level for play took: 0.002534
-[2017.12.07-20.12.28:325][696]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
-[2017.12.07-20.12.28:325][696]LogTemp: Warning: Grabber reporting for duty!
-[2017.12.07-20.12.28:326][696]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.058
-[2017.12.07-20.12.55:535][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.054
-[2017.12.07-20.12.55:538][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_BP] ([1] browsable assets)...
-[2017.12.07-20.12.55:564][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_BP.DefaultPawn_BP]
-[2017.12.07-20.12.55:564][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_BP]
-[2017.12.07-20.12.55:564][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_BP" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.12.07-20.12.55:632][658]LogSavePackage: Save=40.45ms
-[2017.12.07-20.12.55:633][658]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/DefaultPawn_BP_Auto29D2B427644D03D30C4DD03AA8CD8CBCA.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset'
-[2017.12.07-20.12.55:636][658]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/DefaultPawn_BP_Auto2.uasset
-[2017.12.07-20.12.55:636][658]LogFileHelpers: Auto-saving content packages took 0.100
-[2017.12.07-20.14.24:794][175]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.07-20.14.24:818][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.07-20.14.24:818][175]PIE: New page: PIE session: NewMap (Dec 7, 2017, 10:14:24 PM)
-[2017.12.07-20.14.24:818][175]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.12.07-20.14.24:823][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004550s)
-[2017.12.07-20.14.24:825][175]LogAIModule: Creating AISystem for world NewMap
-[2017.12.07-20.14.24:825][175]LogPlayLevel: PIE: World Init took: (0.001881s)
-[2017.12.07-20.14.24:825][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007071s)
-[2017.12.07-20.14.24:892][175]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-20.14.24:898][175]LogInit: FAudioDevice initialized.
-[2017.12.07-20.14.24:934][175]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
-[2017.12.07-20.14.24:938][175]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.07-21.14.24
-[2017.12.07-20.14.24:939][175]LogWorld: Bringing up level for play took: 0.003707
-[2017.12.07-20.14.24:941][175]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
-[2017.12.07-20.14.24:941][175]LogTemp: Warning: Grabber reporting for duty!
-[2017.12.07-20.14.24:941][175]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.326
-[2017.12.07-20.14.27:525][477]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:533][478]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:541][479]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:550][480]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:558][481]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:566][482]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:575][483]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:583][484]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:591][485]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:601][486]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:610][487]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:618][488]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:626][489]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:635][490]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:643][491]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:651][492]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:659][493]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:668][494]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:676][495]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:684][496]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:693][497]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:701][498]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:710][499]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:718][500]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:726][501]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:735][502]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:743][503]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:751][504]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:760][505]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:771][506]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:776][507]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:785][508]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:793][509]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:801][510]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:810][511]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:818][512]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:826][513]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:840][514]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:848][515]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:856][516]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:864][517]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:873][518]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:881][519]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:889][520]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:898][521]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:906][522]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:914][523]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:923][524]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:931][525]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:940][526]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:948][527]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:956][528]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:965][529]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:976][530]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:984][531]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.27:992][532]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:001][533]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:010][534]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:020][535]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:029][536]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:037][537]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:045][538]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:054][539]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:062][540]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:071][541]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.28:079][542]LogTemp: Warning: Tine trace hit: SM_Statue_45
-[2017.12.07-20.14.30:086][779]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:094][780]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:103][781]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:111][782]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:120][783]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:128][784]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:138][785]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:146][786]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:154][787]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:163][788]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:171][789]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:179][790]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:188][791]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:196][792]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:204][793]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:212][794]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:221][795]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:229][796]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:237][797]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:246][798]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:254][799]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:262][800]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:271][801]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:279][802]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:288][803]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:296][804]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:304][805]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:313][806]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:321][807]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:329][808]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:339][809]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:346][810]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:355][811]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:363][812]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:371][813]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:380][814]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:388][815]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:396][816]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:405][817]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:413][818]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:421][819]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:430][820]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:438][821]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:446][822]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:454][823]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:463][824]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:471][825]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:479][826]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:487][827]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:496][828]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:505][829]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:512][830]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:521][831]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:529][832]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:538][833]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:546][834]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:554][835]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:563][836]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:572][837]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:580][838]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:588][839]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:597][840]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:605][841]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:613][842]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:622][843]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:630][844]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:638][845]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:647][846]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:655][847]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:663][848]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:673][849]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:681][850]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:690][851]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:698][852]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:707][853]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:715][854]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:724][855]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:732][856]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:740][857]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:750][858]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:757][859]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:765][860]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:773][861]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:782][862]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:790][863]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:798][864]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:807][865]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:815][866]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:823][867]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:832][868]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:840][869]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:848][870]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:857][871]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:865][872]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:873][873]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:882][874]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:890][875]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:898][876]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:907][877]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:915][878]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:923][879]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:931][880]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:940][881]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:949][882]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:956][883]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:965][884]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:973][885]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:981][886]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:990][887]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.30:998][888]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:006][889]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:015][890]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:023][891]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:031][892]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:040][893]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:048][894]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:056][895]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:065][896]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:075][897]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:083][898]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:091][899]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:100][900]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:108][901]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:116][902]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:125][903]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:133][904]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:141][905]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:150][906]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:158][907]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:167][908]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:175][909]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:183][910]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:191][911]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:200][912]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:209][913]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:217][914]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:225][915]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:234][916]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:242][917]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:250][918]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:259][919]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:267][920]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:276][921]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:284][922]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:292][923]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:301][924]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:309][925]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:317][926]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:326][927]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:334][928]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.31:342][929]LogTemp: Warning: Tine trace hit: SM_Chair_2
-[2017.12.07-20.14.47:326][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.07-20.14.47:517][344]LogSavePackage: Save=103.87ms
-[2017.12.07-20.14.47:517][344]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap9296A4A74F28A37D3BD4988106870296.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
-[2017.12.07-20.14.47:521][344]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
-[2017.12.07-20.14.47:586][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2017.12.07-20.14.47:953][344]LogSavePackage: Save=232.99ms
-[2017.12.07-20.14.47:953][344]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData7384E45345E58370F01205BEF8D3F16E.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2017.12.07-20.14.47:961][344]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2017.12.08-13.52.35:461][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-13.52.35:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.08-13.52.35:571][  0]LogInit: Computer: KLAFA-PC
+[2017.12.08-13.52.35:571][  0]LogInit: User: Klafa
+[2017.12.08-13.52.35:571][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.08-13.52.35:571][  0]LogInit: High frequency timer resolution =3.429501 MHz
+[2017.12.08-13.52.35:572][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.08-13.52.35:572][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.08-13.52.35:572][  0]LogMemory: Process Physical Memory: 279.01 MB used, 279.01 MB peak
+[2017.12.08-13.52.35:572][  0]LogMemory: Process Virtual Memory: 277.51 MB used, 277.51 MB peak
+[2017.12.08-13.52.35:572][  0]LogMemory: Physical Memory: 4013.62 MB used,  12271.34 MB free, 16284.96 MB total
+[2017.12.08-13.52.35:572][  0]LogMemory: Virtual Memory: 654.15 MB used,  12271.34 MB free, 8388608.00 MB total
+[2017.12.08-13.52.36:394][  0]LogInit: Using OS detected language (hu-HU).
+[2017.12.08-13.52.36:394][  0]LogInit: Using OS detected locale (hu-HU).
+[2017.12.08-13.52.36:645][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the language.
+[2017.12.08-13.52.36:646][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the locale.
+[2017.12.08-13.52.39:900][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.08-13.52.39:930][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.12.08-13.52.39:930][  0]LogD3D11RHI:       1990/0/7886 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.08-13.52.39:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.08-13.52.39:944][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.08-13.52.39:944][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.08-13.52.39:944][  0]LogWindows: EnumDisplayDevices:
+[2017.12.08-13.52.39:944][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.12.08-13.52.39:944][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.12.08-13.52.39:944][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.08-13.52.39:945][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.08-13.52.39:945][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.08-13.52.39:945][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.08-13.52.39:945][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.08-13.52.39:945][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.08-13.52.39:945][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.12.08-13.52.39:945][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.12.08-13.52.39:946][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.12.08-13.52.39:946][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.08-13.52.39:963][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.08-13.52.40:239][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.08-13.52.40:272][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/7848/).
+[2017.12.08-13.52.40:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Klafa/AppData/Local/Temp/UnrealShaderWorkingDir/2F9A2AC34704538A6D3F9CB311F03BF4/'.
+[2017.12.08-13.52.40:274][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.08-13.52.43:233][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.08-13.52.43:331][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.08-13.52.43:433][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.08-13.52.43:535][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.08-13.52.43:677][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.08-13.52.43:823][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.08-13.52.43:928][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.08-13.52.44:028][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.08-13.52.44:114][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.08-13.52.44:236][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.08-13.52.44:340][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.08-13.52.44:436][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.08-13.52.44:529][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.08-13.52.44:621][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.08-13.52.44:713][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.08-13.52.44:897][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.08-13.52.44:897][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.08-13.52.44:972][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.08-13.52.45:160][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.08-13.52.45:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.08-13.52.45:302][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.08-13.52.45:393][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.08-13.52.45:484][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.08-13.52.45:591][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.08-13.52.45:591][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.08-13.52.46:998][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: Loaded boot cache 0.48s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.08-13.52.47:478][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.08-13.52.47:557][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.08-13.52.47:571][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Klafa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.08-13.52.47:609][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.08-13.52.47:669][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.08-13.52.47:753][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-13.52.47:758][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-13.52.52:753][  0]LogAssetRegistry: FAssetRegistry took 0.0375 seconds to start up
+[2017.12.08-13.52.54:993][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-13.52.55:216][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.08-13.52.57:459][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.08-13.52.57:573][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.08-13.52.57:573][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.08-13.52.57:573][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.08-13.52.57:573][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.08-13.52.57:573][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.08-13.52.59:754][  0]LogNetVersion: BuildingEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3580536536)
+[2017.12.08-13.53.00:933][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.196213 seconds
+[2017.12.08-13.53.00:941][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.08-13.53.00:941][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.08-13.53.00:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.08-13.53.01:054][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.08-13.53.12:230][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.08-13.53.12:314][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.08-13.53.14:751][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.08-13.53.15:981][  0]SourceControl: Source control is disabled
+[2017.12.08-13.53.15:981][  0]SourceControl: Source control is disabled
+[2017.12.08-13.53.16:124][  0]SourceControl: Source control is disabled
+[2017.12.08-13.53.16:265][  0]SourceControl: Source control is disabled
+[2017.12.08-13.53.18:069][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.08-13.53.18:726][  0]LogOcInput: OculusInput pre-init called
+[2017.12.08-13.53.19:679][  0]LogEngine: Initializing Engine...
+[2017.12.08-13.53.19:860][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.12.08-13.53.20:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.08-13.53.20:490][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.08-13.53.21:042][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.08-13.53.21:182][  0]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-13.53.21:205][  0]LogInit: FAudioDevice initialized.
+[2017.12.08-13.53.21:345][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.08-13.53.21:379][  0]LogInit: Texture streaming: Enabled
+[2017.12.08-13.53.21:646][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.08-13.53.22:412][  0]LogInit: Transaction tracking system initialized
+[2017.12.08-13.53.23:301][  0]BlueprintLog: New page: Editor Load
+[2017.12.08-13.53.25:979][  0]LocalizationService: Localization service is disabled
+[2017.12.08-13.53.28:037][  0]LogConsoleResponse: Display: 
+[2017.12.08-13.53.30:272][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' took 0.02s
+[2017.12.08-13.53.30:272][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.08-13.53.30:280][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.08-13.53.30:364][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.08-13.53.34:876][  0]SourceControl: Source control is disabled
+[2017.12.08-13.53.34:924][  0]Cmd: MAP LOAD FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.08-13.53.34:936][  0]LightingResults: New page: Lighting Build
+[2017.12.08-13.53.35:158][  0]MapCheck: New page: Map Check
+[2017.12.08-13.53.35:158][  0]LightingResults: New page: Lighting Build
+[2017.12.08-13.53.39:006][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.12.08-13.53.39:345][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.08-13.53.39:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.08-13.53.39:545][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.34ms to complete.
+[2017.12.08-13.53.39:545][  0]LogFileHelpers: Loading map 'NewMap' took 4.635
+[2017.12.08-13.53.40:701][  0]LogCollectionManager: Loaded 0 collections in 0.002806 seconds
+[2017.12.08-13.53.40:958][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2017.12.08-13.53.40:958][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' took 0.01s
+[2017.12.08-13.53.40:958][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2017.12.08-13.53.40:958][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.08-13.53.41:011][  0]LogContentBrowser: Native class hierarchy populated in 0.0507 seconds. Added 2391 classes and 502 folders.
+[2017.12.08-13.53.41:169][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.12.08-13.53.42:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0046 seconds. Added 0 classes and 0 folders.
+[2017.12.08-13.53.42:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.12.08-13.53.43:417][  0]LogSlate: Took 0.009519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.08-13.53.43:450][  0]LogSlate: Took 0.008298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.08-13.53.43:462][  0]LogSlate: Took 0.006692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.08-13.53.43:469][  0]LogSlate: Took 0.006381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.08-13.53.43:875][  0]LogRenderer: Reallocating scene render targets to support 1072x804 Format 10 NumSamples 1 (Frame:1).
+[2017.12.08-13.53.44:389][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.12.08-13.53.44:390][  0]LogLoad: (Engine Initialization) Total time: 83.38 seconds
+[2017.12.08-13.53.44:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.08-13.53.44:390][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.08-13.53.44:809][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.08-13.53.46:078][  4]LogAssetRegistry: Asset discovery search completed in 53.3476 seconds
+[2017.12.08-13.53.46:083][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.08-13.53.46:084][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000541 seconds (updated 0 objects)
+[2017.12.08-13.55.58:588][948]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.08-13.55.58:979][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-13.55.59:009][948]PIE: New page: PIE session: NewMap (Dec 8, 2017, 3:55:58 PM)
+[2017.12.08-13.55.59:009][948]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.08-13.55.59:051][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041454s)
+[2017.12.08-13.55.59:053][948]LogAIModule: Creating AISystem for world NewMap
+[2017.12.08-13.55.59:054][948]LogPlayLevel: PIE: World Init took: (0.002290s)
+[2017.12.08-13.55.59:054][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.045042s)
+[2017.12.08-13.55.59:111][948]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-13.55.59:117][948]LogInit: FAudioDevice initialized.
+[2017.12.08-13.55.59:283][948]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.08-13.55.59:302][948]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.08-14.55.59
+[2017.12.08-13.55.59:317][948]LogWorld: Bringing up level for play took: 0.017584
+[2017.12.08-13.55.59:473][948]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
+[2017.12.08-13.55.59:478][948]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.08-13.55.59:479][948]LogTemp: Warning: Grabber reporting for duty!
+[2017.12.08-13.55.59:479][948]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.065
+[2017.12.08-13.56.05:562][385]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2017.12.08-13.56.09:326][604]LogSlate: Took 0.003042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.08-14.05.31:496][ 58]LogHotReload: New module detected: UE4Editor-BuildingEscape-9704.dll
+[2017.12.08-14.05.33:520][ 65]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.08-14.05.33:551][ 65]LogSlate: Took 0.014144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-14.05.33:699][ 65]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0022 seconds. Added 5 classes and 2 folders.
+[2017.12.08-14.05.33:701][ 65]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.08-14.05.33:781][ 65]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2393 classes and 506 folders.
+[2017.12.08-14.05.33:797][ 65]Display: HotReload took  0.3s.
+[2017.12.08-14.06.13:543][187]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.08-14.06.13:569][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-14.06.13:569][187]PIE: New page: PIE session: NewMap (Dec 8, 2017, 4:06:13 PM)
+[2017.12.08-14.06.13:570][187]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.08-14.06.13:576][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006617s)
+[2017.12.08-14.06.13:577][187]LogAIModule: Creating AISystem for world NewMap
+[2017.12.08-14.06.13:578][187]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2017.12.08-14.06.13:578][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008491s)
+[2017.12.08-14.06.13:623][187]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-14.06.13:628][187]LogInit: FAudioDevice initialized.
+[2017.12.08-14.06.13:665][187]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.08-14.06.13:667][187]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.08-15.06.13
+[2017.12.08-14.06.13:668][187]LogWorld: Bringing up level for play took: 0.002517
+[2017.12.08-14.06.13:669][187]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.08-14.06.13:670][187]LogTemp: Warning: Grabber reporting for duty!
+[2017.12.08-14.06.13:670][187]LogTemp: Error: Input componenet found!
+[2017.12.08-14.06.13:670][187]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.161
+[2017.12.08-14.08.46:743][286]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
+[2017.12.08-14.08.46:743][286]LogTemp: CWD: H:\Programok\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.08-14.08.46:743][286]LogTemp: Initial Dir: H:\Programok\Epic Games\UE_4.17
+[2017.12.08-14.08.46:743][286]LogTemp: Env CWD: H:\Programok\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.08-14.08.46:748][286]LogTemp: BranchPath = KLAFA-PC/H/Programok/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = KLAFA-PC/H/Programok/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.08-14.08.46:783][287]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Klafa\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.08-14.20.10:717][  5]LogHotReload: New module detected: UE4Editor-BuildingEscape-9769.dll
+[2017.12.08-14.20.12:409][ 11]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.08-14.20.12:564][ 11]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0022 seconds. Added 5 classes and 2 folders.
+[2017.12.08-14.20.12:566][ 11]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.08-14.20.12:610][ 11]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2393 classes and 506 folders.
+[2017.12.08-14.20.12:626][ 11]Display: HotReload took  0.2s.
+[2017.12.08-14.20.23:683][241]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.08-14.20.23:706][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-14.20.23:707][241]PIE: New page: PIE session: NewMap (Dec 8, 2017, 4:20:23 PM)
+[2017.12.08-14.20.23:707][241]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.08-14.20.23:712][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004781s)
+[2017.12.08-14.20.23:714][241]LogAIModule: Creating AISystem for world NewMap
+[2017.12.08-14.20.23:714][241]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2017.12.08-14.20.23:714][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007656s)
+[2017.12.08-14.20.23:767][241]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.08-14.20.23:772][241]LogInit: FAudioDevice initialized.
+[2017.12.08-14.20.23:802][241]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.08-14.20.23:805][241]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.08-15.20.23
+[2017.12.08-14.20.23:806][241]LogWorld: Bringing up level for play took: 0.002463
+[2017.12.08-14.20.23:807][241]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.08-14.20.23:807][241]LogTemp: Warning: Grabber reporting for duty!
+[2017.12.08-14.20.23:808][241]LogTemp: Warning: Input componenet found!
+[2017.12.08-14.20.23:808][241]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.324
+[2017.12.08-14.20.26:727][585]LogTemp: Warning: Grab pressed!
+[2017.12.08-14.20.29:444][911]LogTemp: Warning: Grab pressed!
+[2017.12.08-14.20.31:154][116]LogTemp: Warning: Grab pressed!
+[2017.12.08-14.20.33:113][351]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:122][352]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:130][353]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:138][354]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:147][355]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:155][356]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:163][357]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:173][358]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:181][359]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:189][360]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:198][361]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:206][362]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:214][363]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:222][364]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:231][365]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:239][366]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:248][367]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:256][368]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:265][369]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:273][370]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:281][371]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:289][372]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:298][373]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:306][374]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:314][375]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:323][376]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:331][377]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:341][378]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:350][379]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:358][380]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:366][381]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:374][382]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:383][383]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:391][384]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:399][385]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:408][386]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:416][387]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:425][388]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:434][389]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:442][390]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:450][391]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:459][392]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:467][393]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:475][394]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:484][395]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:492][396]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:500][397]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:509][398]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:517][399]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:525][400]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:534][401]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:542][402]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:550][403]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:559][404]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:567][405]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:575][406]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:584][407]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:593][408]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:602][409]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:612][410]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:621][411]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:631][412]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:640][413]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:649][414]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:657][415]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:665][416]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:675][417]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:683][418]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:691][419]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:700][420]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:708][421]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:717][422]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:725][423]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:734][424]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:742][425]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:750][426]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:759][427]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:767][428]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:775][429]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:784][430]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:792][431]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:800][432]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:808][433]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:817][434]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:825][435]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:834][436]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:842][437]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:850][438]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:859][439]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:867][440]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:875][441]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:883][442]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:892][443]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:900][444]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:908][445]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:917][446]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:925][447]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:934][448]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:942][449]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:950][450]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:958][451]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:967][452]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:975][453]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:984][454]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.33:992][455]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:000][456]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:008][457]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:017][458]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:025][459]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:033][460]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:042][461]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:050][462]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:059][463]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:067][464]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:075][465]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:084][466]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:092][467]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:100][468]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:108][469]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:117][470]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:125][471]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:133][472]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:142][473]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:150][474]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:158][475]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:167][476]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:175][477]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:183][478]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:192][479]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:200][480]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:208][481]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:217][482]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:226][483]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:234][484]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:242][485]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:252][486]LogTemp: Warning: Grab pressed!
+[2017.12.08-14.20.34:252][486]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:259][487]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:267][488]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:276][489]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:284][490]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:292][491]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:301][492]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:309][493]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:317][494]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:326][495]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:334][496]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:342][497]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:351][498]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:359][499]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:368][500]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:376][501]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:384][502]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:392][503]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:401][504]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:409][505]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:417][506]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:426][507]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:434][508]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:442][509]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:451][510]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:459][511]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:467][512]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:476][513]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:484][514]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:492][515]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:501][516]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:509][517]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:517][518]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:526][519]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:534][520]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:542][521]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:551][522]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:559][523]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:567][524]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:576][525]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:584][526]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:592][527]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:601][528]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:609][529]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:617][530]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:626][531]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:634][532]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:642][533]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:651][534]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:659][535]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:668][536]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:676][537]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:684][538]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:693][539]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:701][540]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:709][541]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:718][542]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.34:726][543]LogTemp: Warning: Tine trace hit: SM_Chair_2
+[2017.12.08-14.20.39:464][109]LogTemp: Warning: Grab pressed!
+[2017.12.08-14.20.44:070][661]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:079][662]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:087][663]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:095][664]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:103][665]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:112][666]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:120][667]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:128][668]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:137][669]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:145][670]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:153][671]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:162][672]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:170][673]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:179][674]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:187][675]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:195][676]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:204][677]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:212][678]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:220][679]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:229][680]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:237][681]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:246][682]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:254][683]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:263][684]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:271][685]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:280][686]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:288][687]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:296][688]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:305][689]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:313][690]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:321][691]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:330][692]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:338][693]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:346][694]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:355][695]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:363][696]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:371][697]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:380][698]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:388][699]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:396][700]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:405][701]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:413][702]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:421][703]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:430][704]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:438][705]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:446][706]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:454][707]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:463][708]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:471][709]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:479][710]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:488][711]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:496][712]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:504][713]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:513][714]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:521][715]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:529][716]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:538][717]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:546][718]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:555][719]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:563][720]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:571][721]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:580][722]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:588][723]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:596][724]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:605][725]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:613][726]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:621][727]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:629][728]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:638][729]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:647][730]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:655][731]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:663][732]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:671][733]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:680][734]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:688][735]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:696][736]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:704][737]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.44:713][738]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:079][782]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:088][783]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:096][784]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:105][785]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:113][786]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:121][787]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:129][788]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:138][789]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:146][790]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:154][791]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:163][792]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:171][793]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:180][794]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:188][795]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:196][796]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:205][797]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:213][798]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:221][799]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:230][800]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:238][801]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:246][802]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:255][803]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:263][804]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:272][805]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:280][806]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:288][807]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:296][808]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:305][809]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:313][810]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:321][811]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:330][812]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:338][813]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:346][814]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:355][815]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:363][816]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:371][817]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.45:380][818]LogTemp: Warning: Tine trace hit: SM_Statue_45
+[2017.12.08-14.20.53:354][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.08-14.20.53:528][694]LogSavePackage: Save=99.62ms
+[2017.12.08-14.20.53:528][694]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMapBDF1E1D546E7B327E6AB919341530D86.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
+[2017.12.08-14.20.53:533][694]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
+[2017.12.08-14.20.53:572][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.12.08-14.20.53:944][694]LogSavePackage: Save=235.63ms
+[2017.12.08-14.20.53:945][694]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData7110AF0D4F2295F183216DBFDC512F48.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2017.12.08-14.20.53:955][694]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2017.12.08-14.21.35:595][ 32]Cmd: QUIT_EDITOR
+[2017.12.08-14.21.35:635][ 32]LogExit: Preparing to exit.
+[2017.12.08-14.21.36:608][ 32]LogExit: Editor shut down
+[2017.12.08-14.21.36:615][ 32]LogExit: Transaction tracking system shut down
+[2017.12.08-14.21.36:889][ 32]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.08-14.21.36:889][ 32]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' was aborted.
+[2017.12.08-14.21.36:889][ 32]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.08-14.21.36:889][ 32]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.08-14.21.36:889][ 32]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.08-14.21.36:959][ 32]LogExit: Object subsystem successfully closed.
+[2017.12.08-14.21.36:977][ 32]LogD3D11RHI: Shutdown
+[2017.12.08-14.21.36:977][ 32]LogD3D11RHI: CleanupD3DDevice
+[2017.12.08-14.21.37:066][ 32]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module BuildingEscape (538)
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (537)
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.12.08-14.21.37:103][ 32]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.12.08-14.21.37:103][ 32]LogDirectoryWatcher: A directory notification for 'H:/Programok/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.12.08-14.21.37:105][ 32]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' was aborted.
+[2017.12.08-14.21.37:105][ 32]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' was aborted.
+[2017.12.08-14.21.37:105][ 32]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' was aborted.
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.12.08-14.21.37:105][ 32]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.12.08-14.21.37:106][ 32]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.12.08-14.21.37:142][ 32]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.12.08-14.21.37:143][ 32]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.12.08-14.21.37:144][ 32]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.12.08-14.21.37:194][ 32]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.12.08-14.21.37:195][ 32]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.12.08-14.21.37:195][ 32]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.12.08-14.21.37:195][ 32]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.12.08-14.21.37:195][ 32]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.12.08-14.21.37:196][ 32]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.12.08-14.21.37:197][ 32]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.12.08-14.21.37:198][ 32]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.12.08-14.21.37:198][ 32]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.12.08-14.21.37:198][ 32]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.12.08-14.21.37:198][ 32]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.12.08-14.21.37:198][ 32]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.12.08-14.21.37:419][ 32]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.12.08-14.21.37:420][ 32]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.12.08-14.21.37:421][ 32]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.12.08-14.21.37:424][ 32]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.12.08-14.21.37:424][ 32]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.12.08-14.21.37:424][ 32]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.12.08-14.21.37:424][ 32]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Binaries/Win64' was aborted.
+[2017.12.08-14.21.37:425][ 32]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.08-14.21.37:425][ 32]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.08-14.21.37:426][ 32]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.08-14.21.37:526][ 32]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.08-14.21.37:626][ 32]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.08-14.21.37:629][ 32]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.08-14.21.37:630][ 32]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.08-14.21.37:630][ 32]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.08-14.21.37:630][ 32]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.08-14.21.37:631][ 32]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.08-14.21.37:631][ 32]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.08-14.21.37:631][ 32]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.08-14.21.37:632][ 32]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.08-14.21.37:632][ 32]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.08-14.21.37:632][ 32]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.08-14.21.37:632][ 32]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.08-14.21.37:632][ 32]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.08-14.21.37:633][ 32]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.08-14.21.37:634][ 32]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.08-14.21.37:634][ 32]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.08-14.21.37:643][ 32]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.08-14.21.37:643][ 32]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.08-14.21.37:644][ 32]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.12.08-14.21.37:645][ 32]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.08-14.21.37:646][ 32]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.08-14.21.37:723][ 32]LogDerivedDataCache: Shutdown
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.08-14.21.37:723][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.08-14.21.37:724][ 32]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.08-14.21.37:725][ 32]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.08-14.21.37:726][ 32]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.08-14.21.37:726][ 32]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.08-14.21.37:726][ 32]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.08-14.21.37:727][ 32]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B410B4E80-463C-B536-EC6A-B3908ED9BEC8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b0337dc246ebee5fdf02d7b1f3485944%7C7ab69ac5756e400f93617a6997e3fb17%7Ccf581f3e-b22c-4291-92f3-8811c332e20d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.08-14.21.37:751][ 32]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.08-14.21.37:757][ 32]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.08-14.21.37:760][ 32]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.08-14.21.37:760][ 32]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.08-14.21.37:760][ 32]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.08-14.21.37:760][ 32]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.08-14.21.37:760][ 32]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.08-14.21.37:761][ 32]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.08-14.21.37:769][ 32]LogExit: Exiting.
+[2017.12.08-14.21.37:797][ 32]Log file closed, 12/08/17 15:21:37
