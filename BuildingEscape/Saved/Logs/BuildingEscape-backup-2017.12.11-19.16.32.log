@@ -1,0 +1,334 @@
+﻿Log file open, 12/10/17 20:49:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2070368950) SRandInit(2070368950).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.262751
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: H:/Programok/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.10-19.49.53:336][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.10-19.49.53:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.10-19.49.53:359][  0]LogInit: Computer: KLAFA-PC
+[2017.12.10-19.49.53:359][  0]LogInit: User: Klafa
+[2017.12.10-19.49.53:359][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.10-19.49.53:359][  0]LogInit: High frequency timer resolution =3.429501 MHz
+[2017.12.10-19.49.53:360][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.10-19.49.53:360][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.10-19.49.53:360][  0]LogMemory: Process Physical Memory: 279.11 MB used, 279.11 MB peak
+[2017.12.10-19.49.53:360][  0]LogMemory: Process Virtual Memory: 277.54 MB used, 277.54 MB peak
+[2017.12.10-19.49.53:360][  0]LogMemory: Physical Memory: 8274.98 MB used,  8009.98 MB free, 16284.96 MB total
+[2017.12.10-19.49.53:360][  0]LogMemory: Virtual Memory: 654.15 MB used,  8009.98 MB free, 8388608.00 MB total
+[2017.12.10-19.49.53:799][  0]LogInit: Using OS detected language (hu-HU).
+[2017.12.10-19.49.53:799][  0]LogInit: Using OS detected locale (hu-HU).
+[2017.12.10-19.49.53:877][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the language.
+[2017.12.10-19.49.53:878][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the locale.
+[2017.12.10-19.49.56:162][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.10-19.49.56:201][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.12.10-19.49.56:201][  0]LogD3D11RHI:       1990/0/7886 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.10-19.49.56:201][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.10-19.49.56:222][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.10-19.49.56:222][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.10-19.49.56:223][  0]LogWindows: EnumDisplayDevices:
+[2017.12.10-19.49.56:223][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.12.10-19.49.56:223][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.12.10-19.49.56:223][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.10-19.49.56:223][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.10-19.49.56:224][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.10-19.49.56:224][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.10-19.49.56:224][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.10-19.49.56:224][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.10-19.49.56:224][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.12.10-19.49.56:224][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.12.10-19.49.56:224][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.12.10-19.49.56:224][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.10-19.49.56:240][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.10-19.49.56:259][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.10-19.49.56:267][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/7664/).
+[2017.12.10-19.49.56:267][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Klafa/AppData/Local/Temp/UnrealShaderWorkingDir/3D62D2294DAE0A294FDA5C9A7CC15A8F/'.
+[2017.12.10-19.49.56:267][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.10-19.49.58:097][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.10-19.49.58:192][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.10-19.49.58:290][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.10-19.49.58:402][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.10-19.49.58:518][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.10-19.49.58:623][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.10-19.49.58:739][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.10-19.49.58:858][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.10-19.49.58:959][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.10-19.49.59:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.10-19.49.59:180][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.10-19.49.59:300][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.10-19.49.59:426][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.10-19.49.59:540][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.10-19.49.59:644][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.10-19.49.59:858][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.10-19.49.59:858][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.10-19.49.59:948][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.10-19.50.00:173][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.10-19.50.00:230][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.10-19.50.00:433][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.10-19.50.00:535][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.10-19.50.00:636][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.10-19.50.00:736][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.10-19.50.00:736][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.10-19.50.02:046][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: Loaded boot cache 0.51s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.10-19.50.02:553][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.10-19.50.02:581][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.10-19.50.02:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Klafa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.10-19.50.02:613][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.10-19.50.02:614][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.10-19.50.02:633][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.10-19.50.02:633][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.10-19.50.05:654][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2017.12.10-19.50.06:032][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.10-19.50.06:043][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.10-19.50.06:970][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.10-19.50.07:074][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.10-19.50.07:074][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.10-19.50.07:074][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.10-19.50.07:074][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.10-19.50.07:074][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.10-19.50.07:787][  0]LogNetVersion: BuildingEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3580536536)
+[2017.12.10-19.50.08:171][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.060242 seconds
+[2017.12.10-19.50.08:180][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.10-19.50.08:180][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.10-19.50.08:180][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.10-19.50.08:291][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.10-19.50.18:219][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.10-19.50.18:300][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.10-19.50.20:163][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.10-19.50.21:322][  0]SourceControl: Source control is disabled
+[2017.12.10-19.50.21:323][  0]SourceControl: Source control is disabled
+[2017.12.10-19.50.21:457][  0]SourceControl: Source control is disabled
+[2017.12.10-19.50.21:578][  0]SourceControl: Source control is disabled
+[2017.12.10-19.50.23:170][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.10-19.50.23:749][  0]LogOcInput: OculusInput pre-init called
+[2017.12.10-19.50.24:360][  0]LogEngine: Initializing Engine...
+[2017.12.10-19.50.24:495][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.12.10-19.50.25:063][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.10-19.50.25:063][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.10-19.50.25:350][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.10-19.50.25:394][  0]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-19.50.25:405][  0]LogInit: FAudioDevice initialized.
+[2017.12.10-19.50.25:567][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.10-19.50.25:608][  0]LogInit: Texture streaming: Enabled
+[2017.12.10-19.50.25:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.10-19.50.26:353][  0]LogInit: Transaction tracking system initialized
+[2017.12.10-19.50.27:072][  0]BlueprintLog: New page: Editor Load
+[2017.12.10-19.50.29:299][  0]LocalizationService: Localization service is disabled
+[2017.12.10-19.50.31:062][  0]LogConsoleResponse: Display: 
+[2017.12.10-19.50.31:758][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.10-19.50.31:758][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.10-19.50.31:758][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.10-19.50.32:117][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' took 0.01s
+[2017.12.10-19.50.34:433][  0]SourceControl: Source control is disabled
+[2017.12.10-19.50.34:433][  0]Cmd: MAP LOAD FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.10-19.50.34:434][  0]LightingResults: New page: Lighting Build
+[2017.12.10-19.50.34:527][  0]MapCheck: New page: Map Check
+[2017.12.10-19.50.34:527][  0]LightingResults: New page: Lighting Build
+[2017.12.10-19.50.37:584][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.12.10-19.50.37:684][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.10-19.50.37:713][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.10-19.50.37:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 149.365ms to complete.
+[2017.12.10-19.50.37:863][  0]LogFileHelpers: Loading map 'NewMap' took 3.430
+[2017.12.10-19.50.38:048][  0]LogCollectionManager: Loaded 0 collections in 0.001778 seconds
+[2017.12.10-19.50.38:180][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2017.12.10-19.50.38:180][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' took 0.01s
+[2017.12.10-19.50.38:180][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2017.12.10-19.50.38:180][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.10-19.50.38:199][  0]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2391 classes and 502 folders.
+[2017.12.10-19.50.38:323][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2017.12.10-19.50.39:366][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.12.10-19.50.39:462][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.12.10-19.50.39:678][  0]LogSlate: Took 0.013219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.10-19.50.39:693][  0]LogSlate: Took 0.009437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.10-19.50.39:704][  0]LogSlate: Took 0.008433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.10-19.50.39:712][  0]LogSlate: Took 0.006821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.10-19.50.39:917][  0]LogRenderer: Reallocating scene render targets to support 1072x804 Format 10 NumSamples 1 (Frame:1).
+[2017.12.10-19.50.40:275][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.12.10-19.50.40:275][  0]LogLoad: (Engine Initialization) Total time: 53.11 seconds
+[2017.12.10-19.50.40:275][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.10-19.50.40:276][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.10-19.50.40:636][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.10-19.50.40:966][  1]LogAssetRegistry: Asset discovery search completed in 35.3325 seconds
+[2017.12.10-19.50.40:968][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.10-19.50.40:969][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000487 seconds (updated 0 objects)
+[2017.12.10-19.50.50:718][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.12.10-20.26.22:524][525]Candidate modules for hot reload:
+[2017.12.10-20.26.22:524][525]  BuildingEscape
+[2017.12.10-20.26.22:524][525]Launching UnrealBuildTool... [H:/Programok/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 3652 Win64 Development -editorrecompile -canskiplink "K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2017.12.10-20.26.22:528][525]Warning: Starting HotReload took  0.4s.
+[2017.12.10-20.27.16:592][781]CompilerResultsLog: New page: Compilation - Dec 10, 2017, 10:27:16 PM
+[2017.12.10-20.27.16:592][781]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.10-20.27.16:592][781]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2017.12.10-20.27.16:592][781]CompilerResultsLog:   Running UnrealHeaderTool "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\BuildingEscape.uproject" "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.10-20.27.16:593][781]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 14,3374849 seconds
+[2017.12.10-20.27.16:593][781]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.12.10-20.27.16:593][781]CompilerResultsLog: Grabber.cpp
+[2017.12.10-20.27.16:593][781]CompilerResultsLog: Grabber.gen.cpp
+[2017.12.10-20.27.16:593][781]CompilerResultsLog: Error: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(63) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.12.10-20.27.16:594][781]CompilerResultsLog: Error: H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2017.12.10-20.27.16:594][781]CompilerResultsLog: [3/4] Link UE4Editor-BuildingEscape-3652.dll
+[2017.12.10-20.27.16:594][781]CompilerResultsLog: [4/4] Link UE4Editor-BuildingEscape-3652.lib
+[2017.12.10-20.27.16:594][781]CompilerResultsLog:    Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3652.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3652.exp
+[2017.12.10-20.27.16:595][781]CompilerResultsLog:    Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3652.suppressed.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3652.suppressed.exp
+[2017.12.10-20.27.16:595][781]CompilerResultsLog: Total build time: 53,40 seconds (Local executor: 25,17 seconds)
+[2017.12.10-20.27.16:595][781]LogMainFrame: MainFrame: Module compiling took 54.094 seconds
+[2017.12.10-20.27.16:744][781]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.12.10-20.27.16:746][781]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.10-20.27.16:829][781]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2393 classes and 506 folders.
+[2017.12.10-20.27.16:830][781]Display: HotReload took 54.7s.
+[2017.12.10-20.27.19:248][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
+[2017.12.10-20.27.21:039][855]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.27.21:212][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.27.21:245][855]PIE: New page: PIE session: NewMap (Dec 10, 2017, 10:27:21 PM)
+[2017.12.10-20.27.21:245][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.10-20.27.21:262][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016681s)
+[2017.12.10-20.27.21:264][855]LogAIModule: Creating AISystem for world NewMap
+[2017.12.10-20.27.21:264][855]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2017.12.10-20.27.21:264][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.019011s)
+[2017.12.10-20.27.21:333][855]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.27.21:338][855]LogInit: FAudioDevice initialized.
+[2017.12.10-20.27.21:455][855]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.10-20.27.21:476][855]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.10-21.27.21
+[2017.12.10-20.27.21:527][855]LogWorld: Bringing up level for play took: 0.054171
+[2017.12.10-20.27.21:693][855]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.12.10-20.27.21:728][855]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.10-20.27.21:745][855]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.118
+[2017.12.10-20.28.38:100][518]LogSlate: Took 0.008375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.10-20.28.38:157][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.10-20.28.38:384][518]LogSavePackage: Save=146.64ms
+[2017.12.10-20.28.38:384][518]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap73ABCA384C387D92019A5BA9F4E9FF77.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
+[2017.12.10-20.28.38:390][518]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
+[2017.12.10-20.28.38:447][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.12.10-20.28.38:846][518]LogSavePackage: Save=285.89ms
+[2017.12.10-20.28.38:846][518]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData838DF3D845092A119045389DF43E0EE8.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2017.12.10-20.28.38:853][518]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2017.12.10-20.28.39:554][544]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.10-20.28.39:579][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-20.28.39:580][544]PIE: New page: PIE session: NewMap (Dec 10, 2017, 10:28:39 PM)
+[2017.12.10-20.28.39:580][544]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.10-20.28.39:585][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005072s)
+[2017.12.10-20.28.39:587][544]LogAIModule: Creating AISystem for world NewMap
+[2017.12.10-20.28.39:588][544]LogPlayLevel: PIE: World Init took: (0.002391s)
+[2017.12.10-20.28.39:588][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008156s)
+[2017.12.10-20.28.39:638][544]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-20.28.39:643][544]LogInit: FAudioDevice initialized.
+[2017.12.10-20.28.39:676][544]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.10-20.28.39:679][544]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.10-21.28.39
+[2017.12.10-20.28.39:680][544]LogWorld: Bringing up level for play took: 0.002578
+[2017.12.10-20.28.39:681][544]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.10-20.28.39:682][544]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.055
+[2017.12.10-20.59.39:890][760]LogSlate: Took 0.010018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)

@@ -83,8 +83,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		//move the object that we're holding
-		PhysicsHandle->SetTargetLocation(GetReachLineEnd());
-		
+		//PhysicsHandle->SetTargetLocation(GetReachLineEnd());
+		GetPlayerViewPointLocationAndRotation();
+		PhysicsHandle->SetTargetLocationAndRotation(GetReachLineEnd(), FRotator(0.0f, PlayerViewPoint.rotation.Yaw, PlayerViewPoint.rotation.Roll));
 	}
 
 }
@@ -120,4 +121,10 @@ FVector UGrabber::GetReachLineStart()
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
 
 	return PlayerViewPointLocation + (PlayerViewPointRotation.Vector()*Reach);
+}
+
+void UGrabber::GetPlayerViewPointLocationAndRotation()
+{
+	/// stores playerviewpoint location and rotation in struct for reuseability
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPoint.location, PlayerViewPoint.rotation);
 }

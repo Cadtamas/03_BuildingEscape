@@ -54,4 +54,14 @@ private:
 	// Returns current end of reach line
 	FVector GetReachLineEnd();
 
+#pragma region MyHelpers
+	/// setup struct to store player location and rotation
+	struct playerviewpointlocationandrotation {
+		FVector location;
+		FRotator rotation;
+	} PlayerViewPoint;
+	/// sets the rotation and location in struct above
+	void GetPlayerViewPointLocationAndRotation();
+#pragma endregion
+
 };
