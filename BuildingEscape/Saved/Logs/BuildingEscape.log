@@ -1,4 +1,4 @@
-﻿Log file open, 12/12/17 20:32:10
+﻿Log file open, 12/13/17 17:18:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(328620936) SRandInit(328620936).
+LogInit: Display: RandInit(449804635) SRandInit(449804635).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.023812
+LogStats: Stats thread started at 0.196659
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,459 +113,635 @@ LogInit: Base directory: H:/Programok/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.12-19.32.15:420][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.12-19.32.15:420][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.12-19.32.15:646][  0]LogInit: Computer: KLAFA-PC
-[2017.12.12-19.32.15:646][  0]LogInit: User: Klafa
-[2017.12.12-19.32.15:646][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.12-19.32.15:646][  0]LogInit: High frequency timer resolution =3.429531 MHz
-[2017.12.12-19.32.15:647][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.12.12-19.32.15:647][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.12-19.32.15:647][  0]LogMemory: Process Physical Memory: 279.11 MB used, 279.11 MB peak
-[2017.12.12-19.32.15:647][  0]LogMemory: Process Virtual Memory: 277.50 MB used, 277.50 MB peak
-[2017.12.12-19.32.15:647][  0]LogMemory: Physical Memory: 4193.73 MB used,  12091.23 MB free, 16284.96 MB total
-[2017.12.12-19.32.15:647][  0]LogMemory: Virtual Memory: 654.15 MB used,  12091.23 MB free, 8388608.00 MB total
-[2017.12.12-19.32.18:286][  0]LogInit: Using OS detected language (hu-HU).
-[2017.12.12-19.32.18:286][  0]LogInit: Using OS detected locale (hu-HU).
-[2017.12.12-19.32.18:787][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the language.
-[2017.12.12-19.32.18:788][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the locale.
-[2017.12.12-19.32.23:484][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.12-19.32.23:516][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
-[2017.12.12-19.32.23:516][  0]LogD3D11RHI:       1990/0/7886 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.12.12-19.32.23:516][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.12-19.32.23:534][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.12-19.32.23:534][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.12-19.32.23:535][  0]LogWindows: EnumDisplayDevices:
-[2017.12.12-19.32.23:535][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
-[2017.12.12-19.32.23:535][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
-[2017.12.12-19.32.23:535][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.12-19.32.23:535][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.12-19.32.23:536][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.12.12-19.32.23:536][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.12.12-19.32.23:536][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.12.12-19.32.23:536][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.12.12-19.32.23:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
-[2017.12.12-19.32.23:536][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
-[2017.12.12-19.32.23:536][  0]LogD3D11RHI:      Driver Date: 9-16-2017
-[2017.12.12-19.32.23:536][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.12.12-19.32.23:553][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.12-19.32.23:819][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.12.12-19.32.23:856][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/6592/).
-[2017.12.12-19.32.23:856][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Klafa/AppData/Local/Temp/UnrealShaderWorkingDir/A389B59545BC74E468554BA841936D87/'.
-[2017.12.12-19.32.23:858][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.12-19.32.27:749][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.12-19.32.27:886][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.12-19.32.28:018][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.12-19.32.28:166][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.12-19.32.28:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.12-19.32.28:486][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.12-19.32.28:612][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.12-19.32.28:740][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.12-19.32.28:853][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.12-19.32.28:985][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.12-19.32.29:131][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.12-19.32.29:259][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.12-19.32.29:415][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.12-19.32.29:563][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.12-19.32.29:704][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.12-19.32.29:981][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.12-19.32.29:981][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.12-19.32.30:172][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.12-19.32.30:492][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.12-19.32.30:568][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.12-19.32.30:758][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.12-19.32.30:889][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.12-19.32.31:014][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.12-19.32.31:175][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.12-19.32.31:175][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.12-19.32.32:953][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.12-19.32.33:417][  0]LogDerivedDataCache: Loaded boot cache 0.46s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.12-19.32.33:417][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.12.12-19.32.33:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.12-19.32.33:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.12-19.32.33:418][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.12-19.32.33:418][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.12-19.32.33:504][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.12-19.32.33:517][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Klafa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.12-19.32.33:559][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.12-19.32.33:610][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.12-19.32.33:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.12-19.32.33:700][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.12-19.32.47:495][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
-[2017.12.12-19.32.49:641][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.12-19.32.49:790][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.12.12-19.32.52:470][  0]LogFileManager: Warning: DeleteFile was unable to delete 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
-[2017.12.12-19.32.52:470][  0]LogFileManager: Warning: DeleteFile recovered during retry!
-[2017.12.12-19.32.52:470][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.12-19.32.52:638][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.12-19.32.52:638][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.12-19.32.52:638][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.12-19.32.52:638][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.12-19.32.52:638][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.12-19.32.55:126][  0]LogNetVersion: BuildingEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3580536536)
-[2017.12.12-19.32.56:591][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.471691 seconds
-[2017.12.12-19.32.56:599][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.12.12-19.32.56:599][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.12.12-19.32.56:599][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.12-19.32.56:727][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.12-19.33.08:387][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.12-19.33.08:472][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.12-19.33.10:999][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.12-19.33.12:257][  0]SourceControl: Source control is disabled
-[2017.12.12-19.33.12:257][  0]SourceControl: Source control is disabled
-[2017.12.12-19.33.12:507][  0]SourceControl: Source control is disabled
-[2017.12.12-19.33.12:764][  0]SourceControl: Source control is disabled
-[2017.12.12-19.33.15:232][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.12-19.33.16:034][  0]LogOcInput: OculusInput pre-init called
-[2017.12.12-19.33.17:162][  0]LogEngine: Initializing Engine...
-[2017.12.12-19.33.17:315][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.12.12-19.33.18:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.12-19.33.18:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.12-19.33.19:091][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.12-19.33.19:189][  0]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.12-19.33.19:201][  0]LogInit: FAudioDevice initialized.
-[2017.12.12-19.33.19:337][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.12-19.33.19:374][  0]LogInit: Texture streaming: Enabled
-[2017.12.12-19.33.19:761][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.12-19.33.20:918][  0]LogInit: Transaction tracking system initialized
-[2017.12.12-19.33.22:167][  0]BlueprintLog: New page: Editor Load
-[2017.12.12-19.33.26:948][  0]LocalizationService: Localization service is disabled
-[2017.12.12-19.33.29:201][  0]LogConsoleResponse: Display: 
-[2017.12.12-19.33.31:253][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' took 0.01s
-[2017.12.12-19.33.31:254][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.12-19.33.31:262][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.12-19.33.31:288][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.12-19.33.34:682][  0]SourceControl: Source control is disabled
-[2017.12.12-19.33.34:731][  0]Cmd: MAP LOAD FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.12-19.33.34:751][  0]LightingResults: New page: Lighting Build
-[2017.12.12-19.33.34:973][  0]MapCheck: New page: Map Check
-[2017.12.12-19.33.34:973][  0]LightingResults: New page: Lighting Build
-[2017.12.12-19.33.38:895][  0]LogAIModule: Creating AISystem for world NewMap
-[2017.12.12-19.33.39:384][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.12-19.33.39:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.12-19.33.39:596][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.591ms to complete.
-[2017.12.12-19.33.39:596][  0]LogFileHelpers: Loading map 'NewMap' took 4.880
-[2017.12.12-19.33.40:597][  0]LogCollectionManager: Loaded 0 collections in 0.002755 seconds
-[2017.12.12-19.33.40:830][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
-[2017.12.12-19.33.40:831][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' took 0.01s
-[2017.12.12-19.33.40:831][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.00s
-[2017.12.12-19.33.40:831][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.12-19.33.40:867][  0]LogContentBrowser: Native class hierarchy populated in 0.0352 seconds. Added 2391 classes and 502 folders.
-[2017.12.12-19.33.41:034][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
-[2017.12.12-19.33.42:220][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2017.12.12-19.33.42:364][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
-[2017.12.12-19.33.43:107][  0]LogSlate: Took 0.014410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.12-19.33.43:117][  0]LogSlate: Took 0.007923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.12-19.33.43:131][  0]LogSlate: Took 0.012824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.12-19.33.43:160][  0]LogSlate: Took 0.000858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.12.12-19.33.43:577][  0]LogRenderer: Reallocating scene render targets to support 1072x804 Format 10 NumSamples 1 (Frame:1).
-[2017.12.12-19.33.44:153][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2017.12.12-19.33.44:154][  0]LogLoad: (Engine Initialization) Total time: 110.57 seconds
-[2017.12.12-19.33.44:154][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.12-19.33.44:154][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.12-19.33.44:555][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.12-19.33.45:835][  4]LogAssetRegistry: Asset discovery search completed in 58.3628 seconds
-[2017.12.12-19.33.45:838][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.12-19.33.45:838][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000282 seconds (updated 0 objects)
-[2017.12.12-19.34.05:429][ 64]Candidate modules for hot reload:
-[2017.12.12-19.34.05:429][ 64]  BuildingEscape
-[2017.12.12-19.34.05:430][ 64]Launching UnrealBuildTool... [H:/Programok/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 749 Win64 Development -editorrecompile -canskiplink "K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2017.12.12-19.34.05:434][ 64]Warning: Starting HotReload took  0.2s.
-[2017.12.12-19.35.23:075][668]CompilerResultsLog: New page: Compilation - Dec 12, 2017, 9:35:23 PM
-[2017.12.12-19.35.23:075][668]CompilerResultsLog: Compiling game modules for hot reload
-[2017.12.12-19.35.23:075][668]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
-[2017.12.12-19.35.23:076][668]CompilerResultsLog:   Running UnrealHeaderTool "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\BuildingEscape.uproject" "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.12.12-19.35.23:076][668]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 13,2330446 seconds
-[2017.12.12-19.35.23:076][668]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2017.12.12-19.35.23:077][668]CompilerResultsLog: OpenDoor.cpp
-[2017.12.12-19.35.23:077][668]CompilerResultsLog: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp: warning C4828: The file contains a character starting at offset 0x729 that is illegal in the current source character set (codepage 65001).
-[2017.12.12-19.35.23:078][668]CompilerResultsLog: Error: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp(75) : error C2276: '*': illegal operation on bound member function expression
-[2017.12.12-19.35.23:079][668]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-749.dll
-[2017.12.12-19.35.23:079][668]CompilerResultsLog: Total build time: 77,10 seconds (Local executor: 0,00 seconds)
-[2017.12.12-19.35.23:080][668]LogMainFrame: MainFrame: Module compiling took 77.737 seconds
-[2017.12.12-19.35.23:080][668]Warning: HotReload failed, recompile failed
-[2017.12.12-19.35.45:847][743]Cmd: QUIT_EDITOR
-[2017.12.12-19.35.46:022][743]LogExit: Preparing to exit.
-[2017.12.12-19.35.46:794][743]LogExit: Editor shut down
-[2017.12.12-19.35.46:802][743]LogExit: Transaction tracking system shut down
-[2017.12.12-19.35.47:157][743]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.12-19.35.47:157][743]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' was aborted.
-[2017.12.12-19.35.47:157][743]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.12-19.35.47:158][743]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.12-19.35.47:158][743]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.12-19.35.47:599][743]LogExit: Object subsystem successfully closed.
-[2017.12.12-19.35.47:652][743]LogD3D11RHI: Shutdown
-[2017.12.12-19.35.47:652][743]LogD3D11RHI: CleanupD3DDevice
-[2017.12.12-19.35.47:753][743]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.12-19.35.47:972][743]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.12.12-19.35.47:972][743]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2017.12.12-19.35.47:972][743]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2017.12.12-19.35.47:972][743]LogDirectoryWatcher: A directory notification for 'H:/Programok/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.12.12-19.35.47:976][743]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2017.12.12-19.35.47:976][743]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2017.12.12-19.35.47:976][743]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2017.12.12-19.35.47:976][743]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' was aborted.
-[2017.12.12-19.35.47:976][743]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' was aborted.
-[2017.12.12-19.35.47:977][743]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' was aborted.
-[2017.12.12-19.35.47:977][743]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.12.12-19.35.47:977][743]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.12.12-19.35.47:977][743]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.12.12-19.35.47:990][743]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.12.12-19.35.47:991][743]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.12.12-19.35.48:001][743]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.12.12-19.35.48:001][743]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.12.12-19.35.48:001][743]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.12.12-19.35.48:002][743]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.12.12-19.35.48:012][743]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.12.12-19.35.48:012][743]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.12.12-19.35.48:012][743]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.12.12-19.35.48:033][743]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.12.12-19.35.48:033][743]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.12.12-19.35.48:033][743]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.12.12-19.35.48:033][743]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.12.12-19.35.48:153][743]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.12.12-19.35.48:153][743]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.12.12-19.35.48:153][743]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.12.12-19.35.48:153][743]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.12.12-19.35.48:153][743]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.12.12-19.35.48:168][743]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.12.12-19.35.48:168][743]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.12.12-19.35.48:168][743]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.12.12-19.35.48:168][743]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.12.12-19.35.48:182][743]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.12.12-19.35.48:191][743]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.12.12-19.35.48:191][743]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.12.12-19.35.48:191][743]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.12.12-19.35.48:191][743]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.12.12-19.35.48:241][743]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.12.12-19.35.48:241][743]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.12.12-19.35.48:251][743]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.12.12-19.35.48:252][743]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.12.12-19.35.48:252][743]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.12.12-19.35.48:260][743]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.12.12-19.35.48:260][743]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.12.12-19.35.48:269][743]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.12.12-19.35.48:269][743]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.12.12-19.35.48:269][743]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.12.12-19.35.48:270][743]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.12.12-19.35.48:270][743]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.12.12-19.35.48:271][743]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.12.12-19.35.48:281][743]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.12.12-19.35.48:282][743]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.12.12-19.35.48:283][743]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.12.12-19.35.48:283][743]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.12.12-19.35.48:283][743]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.12.12-19.35.48:367][743]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.12.12-19.35.48:368][743]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.12.12-19.35.48:368][743]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.12.12-19.35.48:368][743]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.12.12-19.35.48:368][743]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.12.12-19.35.48:368][743]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.12.12-19.35.48:373][743]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.12.12-19.35.48:373][743]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.12.12-19.35.48:394][743]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.12.12-19.35.48:394][743]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.12.12-19.35.48:394][743]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.12.12-19.35.48:394][743]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.12.12-19.35.48:394][743]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.12.12-19.35.48:406][743]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.12.12-19.35.48:418][743]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.12.12-19.35.48:418][743]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2017.12.12-19.35.48:419][743]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2017.12.12-19.35.48:420][743]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2017.12.12-19.35.48:422][743]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2017.12.12-19.35.48:422][743]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2017.12.12-19.35.48:422][743]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2017.12.12-19.35.48:422][743]LogDirectoryWatcher: A directory notification for 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Binaries/Win64' was aborted.
-[2017.12.12-19.35.48:423][743]LogModuleManager: Shutting down and abandoning module BuildingEscape (262)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.12.12-19.35.48:424][743]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.12.12-19.35.48:524][743]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.12.12-19.35.48:624][743]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.12.12-19.35.48:624][743]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.12.12-19.35.48:624][743]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.12.12-19.35.48:624][743]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.12.12-19.35.48:624][743]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.12.12-19.35.48:646][743]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.12.12-19.35.48:649][743]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.12.12-19.35.48:649][743]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.12.12-19.35.48:649][743]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.12.12-19.35.48:649][743]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.12.12-19.35.48:651][743]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.12.12-19.35.48:651][743]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.12.12-19.35.48:651][743]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.12.12-19.35.48:652][743]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.12.12-19.35.48:652][743]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.12.12-19.35.48:652][743]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.12.12-19.35.48:652][743]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.12.12-19.35.48:661][743]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.12.12-19.35.48:661][743]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.12.12-19.35.48:661][743]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.12.12-19.35.48:672][743]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.12.12-19.35.48:672][743]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.12.12-19.35.48:672][743]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.12.12-19.35.48:672][743]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.12.12-19.35.48:679][743]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.12.12-19.35.48:686][743]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.12.12-19.35.48:695][743]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.12.12-19.35.48:695][743]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.12.12-19.35.48:709][743]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.12.12-19.35.48:709][743]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.12.12-19.35.48:718][743]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.12.12-19.35.48:719][743]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.12-19.35.48:719][743]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.12-19.35.48:734][743]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.12-19.35.48:741][743]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.12-19.35.48:741][743]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.12-19.35.48:750][743]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.12-19.35.48:750][743]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.12-19.35.48:750][743]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.12-19.35.48:751][743]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
-[2017.12.12-19.35.48:751][743]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.12.12-19.35.48:752][743]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.12.12-19.35.48:754][743]LogDerivedDataCache: Shutdown
-[2017.12.12-19.35.48:754][743]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.12.12-19.35.48:754][743]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.12.12-19.35.48:754][743]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.12.12-19.35.48:767][743]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.12.12-19.35.48:771][743]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.12.12-19.35.48:771][743]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.12.12-19.35.48:781][743]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.12.12-19.35.48:782][743]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.12-19.35.48:783][743]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.12-19.35.48:783][743]LogOnline: Display: Unloading online subsystem: NULL
-[2017.12.12-19.35.48:799][743]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.12-19.35.48:808][743]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.12-19.35.48:808][743]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.12-19.35.48:808][743]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2696A101-4254-3203-00D1-6BA0C582EF10%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b0337dc246ebee5fdf02d7b1f3485944%7C7ab69ac5756e400f93617a6997e3fb17%7Ccf581f3e-b22c-4291-92f3-8811c332e20d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.12-19.35.48:835][743]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.12-19.35.48:839][743]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.12-19.35.48:839][743]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.12-19.35.48:839][743]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.12-19.35.48:850][743]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.12-19.35.48:850][743]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.12-19.35.48:850][743]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.12-19.35.48:850][743]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.12-19.35.48:859][743]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.12-19.35.48:871][743]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.12-19.35.48:872][743]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.12-19.35.48:872][743]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.12-19.35.48:880][743]LogExit: Exiting.
-[2017.12.12-19.35.48:914][743]Log file closed, 12/12/17 20:35:48
+[2017.12.13-16.18.32:297][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-16.18.32:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.13-16.18.32:319][  0]LogInit: Computer: KLAFA-PC
+[2017.12.13-16.18.32:319][  0]LogInit: User: Klafa
+[2017.12.13-16.18.32:319][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.13-16.18.32:319][  0]LogInit: High frequency timer resolution =3.429521 MHz
+[2017.12.13-16.18.32:320][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.13-16.18.32:320][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.13-16.18.32:320][  0]LogMemory: Process Physical Memory: 279.05 MB used, 279.05 MB peak
+[2017.12.13-16.18.32:320][  0]LogMemory: Process Virtual Memory: 277.50 MB used, 277.50 MB peak
+[2017.12.13-16.18.32:320][  0]LogMemory: Physical Memory: 4691.54 MB used,  11593.43 MB free, 16284.96 MB total
+[2017.12.13-16.18.32:320][  0]LogMemory: Virtual Memory: 654.15 MB used,  11593.43 MB free, 8388608.00 MB total
+[2017.12.13-16.18.32:588][  0]LogInit: Using OS detected language (hu-HU).
+[2017.12.13-16.18.32:588][  0]LogInit: Using OS detected locale (hu-HU).
+[2017.12.13-16.18.32:719][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the language.
+[2017.12.13-16.18.32:720][  0]LogTextLocalizationManager: No localization for 'hu-HU' exists, so 'en' will be used for the locale.
+[2017.12.13-16.18.36:088][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.13-16.18.36:110][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.12.13-16.18.36:110][  0]LogD3D11RHI:       1990/0/7886 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.13-16.18.36:110][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.13-16.18.36:123][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.13-16.18.36:123][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.13-16.18.36:123][  0]LogWindows: EnumDisplayDevices:
+[2017.12.13-16.18.36:123][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.12.13-16.18.36:123][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.12.13-16.18.36:123][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.13-16.18.36:124][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.13-16.18.36:124][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.13-16.18.36:124][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.13-16.18.36:124][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.13-16.18.36:124][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.13-16.18.36:124][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.12.13-16.18.36:124][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.12.13-16.18.36:124][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.12.13-16.18.36:124][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.13-16.18.36:137][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.13-16.18.36:155][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.13-16.18.36:159][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/2320/).
+[2017.12.13-16.18.36:159][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Klafa/AppData/Local/Temp/UnrealShaderWorkingDir/3E27CE204B886FC0981B3B9382ECBCAF/'.
+[2017.12.13-16.18.36:159][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.13-16.18.38:083][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.13-16.18.38:178][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.13-16.18.38:269][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.13-16.18.38:372][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.13-16.18.38:486][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.13-16.18.38:584][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.13-16.18.38:685][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.13-16.18.38:785][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.13-16.18.38:873][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.13-16.18.39:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.13-16.18.39:104][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.13-16.18.39:201][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.13-16.18.39:297][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.13-16.18.39:389][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.13-16.18.39:485][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.13-16.18.39:676][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.13-16.18.39:677][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.13-16.18.39:756][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.13-16.18.39:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.13-16.18.39:963][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.13-16.18.40:067][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.13-16.18.40:160][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.13-16.18.40:250][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.13-16.18.40:368][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.13-16.18.40:368][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.13-16.18.41:258][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.13-16.18.41:735][  0]LogDerivedDataCache: Loaded boot cache 0.48s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.13-16.18.41:735][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.13-16.18.41:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.13-16.18.41:736][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.13-16.18.41:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.13-16.18.41:736][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.13-16.18.41:797][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.13-16.18.41:809][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Klafa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.13-16.18.41:829][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.13-16.18.41:829][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.13-16.18.41:859][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-16.18.41:859][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-16.18.44:299][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.12.13-16.18.45:388][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-16.18.45:395][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.13-16.18.46:489][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.13-16.18.46:580][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.13-16.18.46:580][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.13-16.18.46:580][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.13-16.18.46:580][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.13-16.18.46:580][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.13-16.18.48:058][  0]LogNetVersion: BuildingEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3580536536)
+[2017.12.13-16.18.52:131][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 3.666745 seconds
+[2017.12.13-16.18.52:139][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.13-16.18.52:139][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.13-16.18.52:139][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.13-16.18.52:246][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.13-16.19.01:994][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.13-16.19.02:057][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.13-16.19.03:535][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.13-16.19.04:381][  0]SourceControl: Source control is disabled
+[2017.12.13-16.19.04:381][  0]SourceControl: Source control is disabled
+[2017.12.13-16.19.04:476][  0]SourceControl: Source control is disabled
+[2017.12.13-16.19.04:577][  0]SourceControl: Source control is disabled
+[2017.12.13-16.19.05:773][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.13-16.19.06:235][  0]LogOcInput: OculusInput pre-init called
+[2017.12.13-16.19.06:724][  0]LogEngine: Initializing Engine...
+[2017.12.13-16.19.06:873][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.12.13-16.19.07:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.13-16.19.07:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.13-16.19.07:549][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.13-16.19.07:583][  0]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-16.19.07:597][  0]LogInit: FAudioDevice initialized.
+[2017.12.13-16.19.07:732][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/Klafa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.13-16.19.07:767][  0]LogInit: Texture streaming: Enabled
+[2017.12.13-16.19.07:945][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.13-16.19.08:386][  0]LogInit: Transaction tracking system initialized
+[2017.12.13-16.19.08:940][  0]BlueprintLog: New page: Editor Load
+[2017.12.13-16.19.10:651][  0]LocalizationService: Localization service is disabled
+[2017.12.13-16.19.12:086][  0]LogConsoleResponse: Display: 
+[2017.12.13-16.19.13:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.13-16.19.13:575][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.13-16.19.13:575][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.13-16.19.14:142][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/' took 0.02s
+[2017.12.13-16.19.15:897][  0]SourceControl: Source control is disabled
+[2017.12.13-16.19.15:897][  0]Cmd: MAP LOAD FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-16.19.15:898][  0]LightingResults: New page: Lighting Build
+[2017.12.13-16.19.15:973][  0]MapCheck: New page: Map Check
+[2017.12.13-16.19.15:973][  0]LightingResults: New page: Lighting Build
+[2017.12.13-16.19.19:443][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.12.13-16.19.19:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-16.19.19:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-16.19.19:657][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 146.756ms to complete.
+[2017.12.13-16.19.19:658][  0]LogFileHelpers: Loading map 'NewMap' took 3.761
+[2017.12.13-16.19.19:891][  0]LogCollectionManager: Loaded 0 collections in 0.001891 seconds
+[2017.12.13-16.19.20:014][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2017.12.13-16.19.20:014][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Developers/Klafa/Collections/' took 0.01s
+[2017.12.13-16.19.20:014][  0]LogFileCache: Scanning file cache for directory 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2017.12.13-16.19.20:014][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.13-16.19.20:030][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2391 classes and 502 folders.
+[2017.12.13-16.19.20:148][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.12.13-16.19.22:017][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.12.13-16.19.22:100][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.12.13-16.19.22:295][  0]LogSlate: Took 0.012323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-16.19.22:305][  0]LogSlate: Took 0.007320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.13-16.19.22:319][  0]LogSlate: Took 0.013163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.13-16.19.22:338][  0]LogSlate: Took 0.011302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.13-16.19.22:532][  0]LogRenderer: Reallocating scene render targets to support 1072x804 Format 10 NumSamples 1 (Frame:1).
+[2017.12.13-16.19.22:889][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.12.13-16.19.22:889][  0]LogLoad: (Engine Initialization) Total time: 55.59 seconds
+[2017.12.13-16.19.22:889][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.13-16.19.22:890][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.13-16.19.23:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.13-16.19.23:575][  1]LogAssetRegistry: Asset discovery search completed in 39.2968 seconds
+[2017.12.13-16.19.23:578][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.13-16.19.23:578][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000217 seconds (updated 0 objects)
+[2017.12.13-16.23.02:310][658]Candidate modules for hot reload:
+[2017.12.13-16.23.02:310][658]  BuildingEscape
+[2017.12.13-16.23.02:311][658]Launching UnrealBuildTool... [H:/Programok/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 951 Win64 Development -editorrecompile -canskiplink "K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2017.12.13-16.23.02:313][658]Warning: Starting HotReload took  0.1s.
+[2017.12.13-16.24.31:183][103]CompilerResultsLog: New page: Compilation - Dec 13, 2017, 6:24:31 PM
+[2017.12.13-16.24.31:184][103]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.13-16.24.31:184][103]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2017.12.13-16.24.31:184][103]CompilerResultsLog:   Running UnrealHeaderTool "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\BuildingEscape.uproject" "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.13-16.24.31:186][103]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 12,9435819 seconds
+[2017.12.13-16.24.31:186][103]CompilerResultsLog: Performing 14 actions (4 in parallel)
+[2017.12.13-16.24.31:186][103]CompilerResultsLog: BuildingEscape.cpp
+[2017.12.13-16.24.31:187][103]CompilerResultsLog: BuildingEscape.init.gen.cpp
+[2017.12.13-16.24.31:187][103]CompilerResultsLog: BuildingEscapeGameModeBase.cpp
+[2017.12.13-16.24.31:187][103]CompilerResultsLog: BuildingEscapeGameMode_BP.cpp
+[2017.12.13-16.24.31:187][103]CompilerResultsLog: Grabber.cpp
+[2017.12.13-16.24.31:188][103]CompilerResultsLog: BuildingEscapeGameModeBase.gen.cpp
+[2017.12.13-16.24.31:188][103]CompilerResultsLog: PositionReporter.cpp
+[2017.12.13-16.24.31:188][103]CompilerResultsLog: OpenDoor.cpp
+[2017.12.13-16.24.31:188][103]CompilerResultsLog: Error: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp(17) : warning C4996: 'UActorComponent::bWantsBeginPlay': bWantsBeginPlay was inconsistently enforced and is now unused. BeginPlay will now always be called for Actor Components. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.12.13-16.24.31:189][103]CompilerResultsLog: Error: H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(217) : note: see declaration of 'UActorComponent::bWantsBeginPlay'
+[2017.12.13-16.24.31:189][103]CompilerResultsLog: BuildingEscapeGameMode_BP.gen.cpp
+[2017.12.13-16.24.31:189][103]CompilerResultsLog: Error: K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(63) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: Error: H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: OpenDoor.gen.cpp
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: Grabber.gen.cpp
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: PositionReporter.gen.cpp
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: [13/14] Link UE4Editor-BuildingEscape-951.dll
+[2017.12.13-16.24.31:190][103]CompilerResultsLog: [14/14] Link UE4Editor-BuildingEscape-951.lib
+[2017.12.13-16.24.31:190][103]CompilerResultsLog:    Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-951.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-951.exp
+[2017.12.13-16.24.31:191][103]CompilerResultsLog:    Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-951.suppressed.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-951.suppressed.exp
+[2017.12.13-16.24.31:191][103]CompilerResultsLog: Total build time: 88,07 seconds (Local executor: 55,52 seconds)
+[2017.12.13-16.24.31:191][103]LogMainFrame: MainFrame: Module compiling took 88.905 seconds
+[2017.12.13-16.24.31:295][103]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0023 seconds. Added 5 classes and 2 folders.
+[2017.12.13-16.24.31:297][103]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.13-16.24.31:373][103]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2393 classes and 506 folders.
+[2017.12.13-16.24.31:374][103]Display: HotReload took 89.1s.
+[2017.12.13-16.24.34:181][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.12.13-16.24.38:763][325]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-16.24.38:824][325]LogFileManager: Warning: DeleteFile was unable to delete 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Intermediate/AssetRegistryCache/c90e3f55.bin', retrying in .5s...
+[2017.12.13-16.24.39:361][325]LogFileManager: Warning: DeleteFile recovered during retry!
+[2017.12.13-16.24.39:371][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-16.24.39:372][325]PIE: New page: PIE session: NewMap (Dec 13, 2017, 6:24:39 PM)
+[2017.12.13-16.24.39:372][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.12.13-16.24.39:389][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015854s)
+[2017.12.13-16.24.39:391][325]LogAIModule: Creating AISystem for world NewMap
+[2017.12.13-16.24.39:392][325]LogPlayLevel: PIE: World Init took: (0.002615s)
+[2017.12.13-16.24.39:393][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.020050s)
+[2017.12.13-16.24.39:454][325]LogInit: XAudio2 using 'Hangszórók (C-Media PCI Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.13-16.24.39:459][325]LogInit: FAudioDevice initialized.
+[2017.12.13-16.24.39:518][325]LogLoad: Game class is 'BuildingEscapeGameMode_BP_C'
+[2017.12.13-16.24.39:522][325]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.12.13-17.24.39
+[2017.12.13-16.24.39:523][325]LogWorld: Bringing up level for play took: 0.002428
+[2017.12.13-16.24.39:620][325]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.12.13-16.24.39:621][325]LogTemp: Warning: SM_Chair_2 is at X=-425.540 Y=-249.701 Z=20.526
+[2017.12.13-16.24.39:622][325]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.108
+[2017.12.13-16.24.47:190][224]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:190][224]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:198][225]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:198][225]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:206][226]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:206][226]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:214][227]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:215][227]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:223][228]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:223][228]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:231][229]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:231][229]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:239][230]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:240][230]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:248][231]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:248][231]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:256][232]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:256][232]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:264][233]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:265][233]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:273][234]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:273][234]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:281][235]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:281][235]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:289][236]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:290][236]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:298][237]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:298][237]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:306][238]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:306][238]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:314][239]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:315][239]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:323][240]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:323][240]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:331][241]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:331][241]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:339][242]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:340][242]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:348][243]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:348][243]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:356][244]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:356][244]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:365][245]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:365][245]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:373][246]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:373][246]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:382][247]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:382][247]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:390][248]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:390][248]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:398][249]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:398][249]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:407][250]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:407][250]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:415][251]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:415][251]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:423][252]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:423][252]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:432][253]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:432][253]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:440][254]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:440][254]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:448][255]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:448][255]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:457][256]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:457][256]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:465][257]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:465][257]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:473][258]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:473][258]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:482][259]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:482][259]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:490][260]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:490][260]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:498][261]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:498][261]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:506][262]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:507][262]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:515][263]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:515][263]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:523][264]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:523][264]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:532][265]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:532][265]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:540][266]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:540][266]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:549][267]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:549][267]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:557][268]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:557][268]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:565][269]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:565][269]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:573][270]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:574][270]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:582][271]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:583][271]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:590][272]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:590][272]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:598][273]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:598][273]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:607][274]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:607][274]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:615][275]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:616][275]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:623][276]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:623][276]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:631][277]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:631][277]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:640][278]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:640][278]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:648][279]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:648][279]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:656][280]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:657][280]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:664][281]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:665][281]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:673][282]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:673][282]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:681][283]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:681][283]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:689][284]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:690][284]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:698][285]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:698][285]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:706][286]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:706][286]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:714][287]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:715][287]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:723][288]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:723][288]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:731][289]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:731][289]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:739][290]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:740][290]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:748][291]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:748][291]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:756][292]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:756][292]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:764][293]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:765][293]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:773][294]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:773][294]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:781][295]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:781][295]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:789][296]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:790][296]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:798][297]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:798][297]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:806][298]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:806][298]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:814][299]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:815][299]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:823][300]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:823][300]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:831][301]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:831][301]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:839][302]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:840][302]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:848][303]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:848][303]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:856][304]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:856][304]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:864][305]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:865][305]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:873][306]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:873][306]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:881][307]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:881][307]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:889][308]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:890][308]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:898][309]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:898][309]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:906][310]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:906][310]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:914][311]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:915][311]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:923][312]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:923][312]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:931][313]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:931][313]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:940][314]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:940][314]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:948][315]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:948][315]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:956][316]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:956][316]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:964][317]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:965][317]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:973][318]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:973][318]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:981][319]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:981][319]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:989][320]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:990][320]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:998][321]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.47:998][321]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:006][322]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:006][322]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:014][323]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:015][323]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:023][324]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:023][324]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:031][325]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:031][325]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:039][326]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:040][326]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:048][327]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:048][327]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:056][328]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:056][328]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:065][329]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:065][329]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:073][330]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:073][330]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:081][331]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:081][331]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:089][332]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:090][332]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:098][333]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:098][333]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:106][334]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:106][334]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:114][335]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:115][335]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:123][336]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:123][336]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:131][337]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:131][337]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:139][338]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:140][338]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:148][339]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:148][339]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:156][340]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:156][340]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:164][341]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:165][341]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:173][342]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:173][342]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:181][343]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:181][343]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:189][344]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:190][344]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:198][345]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:198][345]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:206][346]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:206][346]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:214][347]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:215][347]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:223][348]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:223][348]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:231][349]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:231][349]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:239][350]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:240][350]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:248][351]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:248][351]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:256][352]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:256][352]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:264][353]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:265][353]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:273][354]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:273][354]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:281][355]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:281][355]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:289][356]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:290][356]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:298][357]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:298][357]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:306][358]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:306][358]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:314][359]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:315][359]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:323][360]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:323][360]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:331][361]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:331][361]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:339][362]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:340][362]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:348][363]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:348][363]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:356][364]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:356][364]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:364][365]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:365][365]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:373][366]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:373][366]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:381][367]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:381][367]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:389][368]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:390][368]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:398][369]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:398][369]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:406][370]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:406][370]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:414][371]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:415][371]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:423][372]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:423][372]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:431][373]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:431][373]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:439][374]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:440][374]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:448][375]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:448][375]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:456][376]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:456][376]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:464][377]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:465][377]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:473][378]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:473][378]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:481][379]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:481][379]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:489][380]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:490][380]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:498][381]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:498][381]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:506][382]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:506][382]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:514][383]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:515][383]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:523][384]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:523][384]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:531][385]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:531][385]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:539][386]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:540][386]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:548][387]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:548][387]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:556][388]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:556][388]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:564][389]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:565][389]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:573][390]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:573][390]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:581][391]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:581][391]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:589][392]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:590][392]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:598][393]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:599][393]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:606][394]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:606][394]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:615][395]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:615][395]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:623][396]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:623][396]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:631][397]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:631][397]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:640][398]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:640][398]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:648][399]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:648][399]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:656][400]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:656][400]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:665][401]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:665][401]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:673][402]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:673][402]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:681][403]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:682][403]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:690][404]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:690][404]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:698][405]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:698][405]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:706][406]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:706][406]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:715][407]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:715][407]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:723][408]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:723][408]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:731][409]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:732][409]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:740][410]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:740][410]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:748][411]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:748][411]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:756][412]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:756][412]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:765][413]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:765][413]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:773][414]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:773][414]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:781][415]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:781][415]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:790][416]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:790][416]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:798][417]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:798][417]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:806][418]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:806][418]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:815][419]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:815][419]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:823][420]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:823][420]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:831][421]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:831][421]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:839][422]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:840][422]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:848][423]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:848][423]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:856][424]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:856][424]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:864][425]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:865][425]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:873][426]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:873][426]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:881][427]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:881][427]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:889][428]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:890][428]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:898][429]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:898][429]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:906][430]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:906][430]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:914][431]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.24.48:915][431]LogTemp: Warning: DefaultPawn_BP_C_0 on pressure plate
+[2017.12.13-16.25.18:199][775]LogSlate: Took 0.016747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-16.25.18:213][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-16.25.18:400][775]LogSavePackage: Save=100.06ms
+[2017.12.13-16.25.18:400][775]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap72C0BE54484A3378BE5C7C85F08722C8.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
+[2017.12.13-16.25.18:405][775]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
+[2017.12.13-16.25.18:443][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.12.13-16.25.18:844][775]LogSavePackage: Save=233.87ms
+[2017.12.13-16.25.18:844][775]LogSavePackage: Moving 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltDataF7CE37F34A8FB613EA6091931C70FEB6.tmp' to 'K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2017.12.13-16.25.18:855][775]LogSavePackage: Display: Finished SavePackage K:/O/Programozas/Unreal/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
