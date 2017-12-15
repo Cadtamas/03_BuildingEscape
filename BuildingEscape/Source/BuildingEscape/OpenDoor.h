@@ -32,6 +32,9 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FDoorEvent OnClose;
 
+	UFUNCTION(BlueprintCallable)
+	inline int GetDoorOpenDirection() { return DoorOpenDirection; }
+
 private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate=nullptr;
@@ -41,6 +44,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float TriggerMass = 30.f;
+
+	UPROPERTY(EditAnywhere)
+	int DoorOpenDirection = -1;
 
 	//Returns total mass in kg
 	float GetTotalMassOfActorsOnPlate();

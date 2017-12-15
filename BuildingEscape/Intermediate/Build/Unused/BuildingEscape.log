@@ -1,18 +1,128 @@
-﻿  Compiling game modules for hot reload
+﻿  Cleaning BuildingEscapeEditor Binaries...
+  Creating makefile for BuildingEscapeEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Parsing headers for BuildingEscapeEditor
     Running UnrealHeaderTool "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\BuildingEscape.uproject" "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 11,7356455 seconds
-  Performing 5 actions (4 in parallel)
-  OpenDoor.cpp
+  Reflection code generated for BuildingEscapeEditor in 11,5833256 seconds
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1018.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1018.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1509.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1509.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1651.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1651.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-189.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-189.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-218.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-218.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2445.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2445.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2459.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2459.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2720.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2720.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2765.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2765.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2889.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2889.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3083.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3083.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3116.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3116.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3247.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3247.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3280.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3280.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3400.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3400.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3535.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3535.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3652.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3652.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-411.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-411.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4689.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4689.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4907.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4907.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4914.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-4914.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5567.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5567.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5871.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5871.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5948.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5948.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6325.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6325.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6352.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6352.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6367.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6367.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6712.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6712.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7162.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7162.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-744.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-744.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7503.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7503.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7594.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7594.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-760.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-760.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7775.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7775.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7831.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7831.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8262.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8262.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8309.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8309.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8650.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8650.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8663.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8663.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8964.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8964.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9052.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9052.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-951.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-951.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9652.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9652.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9660.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9660.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9704.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9704.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9722.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9722.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9769.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9769.pdb".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9995.dll".
+  Deleting old hot reload file: "K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9995.pdb".
+  Performing 17 actions (4 in parallel)
+  [3/17] Resource ModuleVersionResource.rc.inl
+  [2/17] Resource PCLaunch.rc
+  SharedPCH.Engine.cpp
+  BuildingEscape.cpp
+  BuildingEscapeGameModeBase.cpp
+  BuildingEscape.init.gen.cpp
+  BuildingEscapeGameMode_BP.cpp
   Grabber.cpp
-  OpenDoor.gen.cpp
-K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp(17): warning C4996: 'UActorComponent::bWantsBeginPlay': bWantsBeginPlay was inconsistently enforced and is now unused. BeginPlay will now always be called for Actor Components. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(217): note: see declaration of 'UActorComponent::bWantsBeginPlay'
 K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(78): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
   H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-  [4/5] Link UE4Editor-BuildingEscape-6352.dll
-  [5/5] Link UE4Editor-BuildingEscape-6352.lib
-     Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6352.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6352.exp
-     Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6352.suppressed.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6352.suppressed.exp
+  PositionReporter.cpp
+  OpenDoor.cpp
+  BuildingEscapeGameModeBase.gen.cpp
+K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp(17): warning C4996: 'UActorComponent::bWantsBeginPlay': bWantsBeginPlay was inconsistently enforced and is now unused. BeginPlay will now always be called for Actor Components. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  H:\Programok\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h(217): note: see declaration of 'UActorComponent::bWantsBeginPlay'
+  BuildingEscapeGameMode_BP.gen.cpp
+  Grabber.gen.cpp
+  OpenDoor.gen.cpp
+  PositionReporter.gen.cpp
+  [16/17] Link UE4Editor-BuildingEscape.dll
+  [17/17] Link UE4Editor-BuildingEscape.lib
+     Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+     Creating library K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object K:\O\Programozas\Unreal\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 88,75 seconds (Local executor: 59,04 seconds)
+  Total build time: 61,17 seconds (Local executor: 35,28 seconds)

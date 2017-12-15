@@ -20,8 +20,28 @@ static inline void FDoorEvent_DelegateWrapper(const FMulticastScriptDelegate& Do
 }
 
 
-#define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_RPC_WRAPPERS
-#define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetDoorOpenDirection) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetDoorOpenDirection(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetDoorOpenDirection) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetDoorOpenDirection(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
@@ -68,7 +88,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__TriggerMass() { return STRUCT_OFFSET(UOpenDoor, TriggerMass); }
+	FORCEINLINE static uint32 __PPO__TriggerMass() { return STRUCT_OFFSET(UOpenDoor, TriggerMass); } \
+	FORCEINLINE static uint32 __PPO__DoorOpenDirection() { return STRUCT_OFFSET(UOpenDoor, DoorOpenDirection); }
 
 
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_12_PROLOG
